@@ -10,7 +10,7 @@ async function printError(time) {
     }
 }
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 10; i++) {
     printLog(i);
     printError(i);
 }
